@@ -40,3 +40,16 @@ footer {
   padding: var(--footerPadding);
   text-align: center;
 }
+
+.product {
+  font-size: 2rem;
+  display: flex;
+  margin: 0.7rem;
+  padding: 0.7rem;
+  background-color: lightpink;
+  border-radius: 7px;
+}
+
+.product div {
+  width: calc(100% / 3);
+}
