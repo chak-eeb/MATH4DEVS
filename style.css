@@ -41,7 +41,10 @@ footer {
   text-align: center;
 }
 
-.product {
+.product,
+#total,
+#tax,
+#weight {
   font-size: 2rem;
   display: flex;
   margin: 0.7rem;
@@ -51,5 +54,12 @@ footer {
 }
 
 .product div {
-  width: calc(100% / 3);
+  width: calc(100% / 4);
+}
+
+#total,
+#tax,
+#weight {
+  display: flex;
+  justify-content: center;
 }
